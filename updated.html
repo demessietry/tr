@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<htmhl lang="en">
+<head>
+<title> መማሪያ </title>
+<style>
+body {background-color:lightblue;
+}
+p {
+    margin: 10px;
+}
+
+#fixed_help {
+position: fixed;
+bottom:0px;
+right: 0px;
+}
+#fixed_image {
+margin-right: 30px;
+margin-bottom: 10px;
+width:70px;
+}
+#fixed_image:hover {
+margin-right: 30px;
+margin-bottom: 10px;
+width:100px;
+}
+
+a.n:link, a.n:visited {
+font-size: 200% ;
+background-color: yellow;
+color:black;
+padding: 15px 25px;
+text-align:center;
+text-decoration: none;
+display: inline-block;
+}
+a.n:hover {
+background-color: red;
+color: white;
+}
+
+#about {
+margin-left: 20%;
+margin-right: 20%;
+font-size:150%;
+color:red;
+text-align:center;
+padding: 15px 25px;
+}
+#about:hover {
+background-color: red;
+color: white;
+padding: 15px 25px;
+}
+
+#div1 {
+background-image: url(https://assets-global.website-files.com/5e39e095596498a8b9624af1/5fdcabfbe1fbb07ad27b11ac_New-Nested-symbols.jpg);
+padding:10px;
+}
+
+p.first {
+color: black;
+font: italic bold 300% "times new romans", georgian , serif;  /* size and font family are required */
+text-transform: uppercase;
+letter-spacing: 3px;
+word-spacing:12px;
+line-height:1.6;
+text-shadow: 3px 3px 5px yellow;
+}
+
+#p1 {
+margin-left: 2%;
+font-size: 200%;
+font-family: georgian, "times new roman", serif;
+color: blue;
+font-weight: bold;
+border-style:solid ;
+border-color: red blue red blue ;
+Border-width: 10px 20px 10px 20px ;
+border-radius: 30px;
+padding: 20px;
+
+}
+
+table#t01, th, td {
+border: 2px solid black;
+border-collapse: collapse;
+font-size: 130%;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 th {
+background-color: yellow;
+text-align: left;
+color: black;
+}
+#f01 {
+margin:20px;
+line-height:130%;
+font-size: 150%
+}
+
+</style>
+
+</head>
+<body>
+<div id="fixed_help"> <img id=fixed_image src="https://cdn-icons-png.flaticon.com/512/682/682055.png" > </div>
+<h1>This is a edited with github</h1>
+<p>This is easy </p>
+
+<h3> another heading</h3>
+<a href="#h2"> <b> Jump to Bookmarked part </b> </a>
+<br>
+<hr>
+<a class="n" href="http://www.google.com" target="_blank"> <b>website of google</b></a>
+<br>
+<p id="about" title="About Demessie"> 
+My name is Demessie. <b>I am medical student.</b> 
+</p>
+<br> 
+<a href="http://www.paulers.tk" target="_blank"> <img src="file:///C:\Users\Demessie\Pictures\Screenshots\Screenshot.png" alt="We can't find image" float="left" width="220" height="250">
+</a> This image float to left side.
+
+<h2 id="h2"> <b>Bookmarked part </b> </h2>
+
+<pre>
+
+This is preserved     text
+
+it used for preserve any lines        and break.
+
+</pre>
+
+<div id="div1">
+<p>
+<b>this is</b> <i>italic </i> <strong>this is also</strong> <em> italic </em>
+<br>
+<mark> this is marked </mark>
+<br>
+<del> this is deleted </del>
+<br> 
+<ins><b> this is inserted </b></ins>
+<br>
+ 3<sup>2</sup> = 9 and Log<sub>10</sub> = 1
+<br>
+ This is another person's thought <q><b>One day I will ...... </b></q>
+</div>
+<br>
+<blockquote> <b>This is indented text</b> </blockquote>
+<abbr title="Saint Paul's Hospital Millenium Medical College"> <b> SPHMMC</b></abbr> is the best medical school in Ethiopia.
+<br>
+Let write text from right to left using Bi-Directional Override <bdo dir="rtl"> Endale mood </bdo>
+<br>
+Einstein wrote: <var>E</var> = <var>M</var><var>C<sup>2</sup></var>
+<!-- this is comment, so viewer can't see this text -->
+
+</p>
+<br>
+
+<p class="first"> <ins> this is first class with <br> edited line space</ins></p>
+<p id="p1">This is using Id attribute </p>
+<br>
+<table id="t01" style="width:75%"> 
+<caption style="font-size:180%; color:red;"> <b>AZBT'z members database </b> </caption>
+<tr>
+  <th> No </th>
+  <th> Name </th>
+  <th> Id </th>
+  <th> Learning in </th>
+</tr>
+<tr>
+<td> 1 </td>
+<td> Abirham Yilkal</td>
+<td> MMR/ </td>
+<td> South Korea </td>
+</tr>
+<tr>
+<td> 2 </td>
+<td> Besufkad Wondu </td>
+<td> MMR/410/12 </td>
+<td rowspan="6"> Ethiopia </td>
+</tr>
+<tr>
+<td> 3 </td>
+<td> Biruk Tamiru </td>
+<td> MMR/414/12 </td>
+</tr>
+<tr>
+<td> 4 </td>
+<td> Demessie Wondimu </td>
+<td> MMR/418/12 </td>
+</tr>
+<tr>
+<td> 5 </td>
+<td> Haymanot Wondawek </td>
+<td> MMR/436/12 </td>
+</tr>
+<tr>
+<td> 6 </td>
+<td> Mikiyas Solomon </td>
+<td> MMR/</td>
+</tr>
+<tr>
+<td> 7 </td>
+<td> Nebiyu Afework </td>
+<td> MMR/ </td>
+</tr>
+
+</table>
+<br>
+<h2> <b> <span style="color:red;"> SPHMMC </span> <span style="color:blue;"> curriculum </span> </b> </h2>
+<ul>
+<li> Pre-Med </li>
+<li> Pc-1 
+<ol type="I">
+<li> Module 1</li>
+<li> Module 2</li>
+<li> Module 3</li>
+</ol>
+</li>
+<li> Pc-2 
+<ol type="A">
+<li> Module 4</li>
+<li> Module 5</li>
+<li> Module 6</li>
+</ol>
+</li>
+<li> C-1 </li>
+<li> C-2 </li>
+<li> Intern </li>
+</UL>
+
+<video  poster="https://tempoeth2.tk/fb0721.jpg" controls="controls" width="80%" height="80%">
+  <source src="https://tempoeth2.tk/files/'%E1%8A%A0%E1%8B%AD%E1%8A%93%E1%89%BD%E1%8A%95%20%E1%8A%90%E1%88%BD%20%E1%88%9B%E1%88%AD%E1%8B%AB%E1%88%9D'%20-%20%E1%88%8A%E1%89%80%20%E1%88%98%E1%8B%98%E1%88%9D%E1%88%AB%E1%8A%95%20%E1%89%B4%E1%8B%8E%E1%8B%B5%E1%88%AE%E1%88%B5%20%E1%8B%AE%E1%88%B4%E1%8D%8D.mp4" type="video/mp4">
+
+</video>
+<br>
+<a href="https://drive.google.com/drive/folders/1LsYSCDi2zahcvL7tTLC0VeVEjZoyH0Y9?usp=sharing" target="_top"> <img src="https://remarkable-lollipop-573162.netlify.app/files/aq.jpg" align="left" width="50%" height="25%">
+</a>
+<a href="https://drive.google.com/drive/folders/1LsYSCDi2zahcvL7tTLC0VeVEjZoyH0Y9?usp=sharing" target="_blank"> <img src="https://remarkable-lollipop-573162.netlify.app/files/aq.jpg" align="right" width="50%" height="25%">
+</a>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rtn8HbkY3Es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<button type="button" onclick="alert('Hello this new website')"> First button </button>
+<br>
+
+<form id="f01">
+<p style="align:center; font-size:150%; color:red; font-weight:bold;"> <ins>Create new account </ins></p>
+Student name: <input type="text" name="user_name" required>
+<keygen name="security">
+<br>
+Type new password: <input type="password" required>
+<br>
+Re-enter your password: <input type="password" required>
+<br>
+E-mail address: <input type="email" name="email" size="30" required>
+<br>
+<b>Gender </b><br><input type="radio" name="gender" checked> Male<br>
+<input type="radio" name="gender" > Female<br>
+<input type="radio" name="gender" > Other<br>
+<b>Batch </b><br>
+<input type="radio" name="batch" checked> Pre-Med<br>
+<input type="radio" name="batch" > Pc-1<br>
+<input type="radio" name="batch" > Pc-2<br>
+<input type="radio" name="batch" > C-1<br>
+<input type="radio" name="batch" > C-2<br>
+<input type="radio" name="batch" > Intern<br>
+<b>Year of intake (E.C): </b><select name="year">
+<option> 2007 </option>
+<option> 2008 </option>
+<option> 2009 </option>
+<option> 2010 </option>
+<option> 2011 </option>
+<option> 2012 </option>
+<option> 2013 </option>
+</select>
+<br>
+<b>Birthday: </b><input type="date" required> <br>
+<b>Attach Birthday card: </b><input type="file"> <br>
+
+
+<input type="submit">
+</form>
+
+
+
+
+<br>
+<br>
+</body>
+
+</html>
